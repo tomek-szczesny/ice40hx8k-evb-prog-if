@@ -11,7 +11,7 @@ The board is completely passive and contains only one header and one socket. It 
 
 It works by writing on-board EEPROM directly through SBC's SPI pins. The EVB's RESET pin is also routed and pulled by the GPIO during programming. The whole process is automated by a makefile crafted for this purpose.
 
-Furthermore, two UART pins on SBC are routed to appropriate pins on FPGA EVB, so with simple UART Verilog modules, one gets a nice debugging interface, all in the same cable. For that, I recommend [uart_tx]([ice40_lib/uart_tx.v at main · tomek-szczesny/ice40_lib · GitHub](https://github.com/tomek-szczesny/ice40_lib/blob/main/uart_tx.v)) Verilog module from my library. Alternatively, user may use these two pins as GPIO and put them to some other use.
+Furthermore, two UART pins on SBC are routed to appropriate pins on FPGA EVB, so with simple UART Verilog modules, one gets a nice debugging interface, all in the same cable. For that, I recommend    [uart_tx](https://github.com/tomek-szczesny/ice40_lib/blob/main/uart_tx.v) Verilog module from my library. Alternatively, user may use these two pins as GPIO and put them to some other use.
 
 ### The Makefile
 
