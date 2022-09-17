@@ -4,6 +4,7 @@
 ![2022-09-17-182009_756x452_scrot](https://user-images.githubusercontent.com/44300715/190866542-d409e447-4a2c-4719-a986-5e8022baa7b2.png)
 ![signal-2022-09-17-181949_002](https://user-images.githubusercontent.com/44300715/190866549-0c66c733-47b1-4bdf-8699-ef01ad4a3365.jpeg)
 ![signal-2022-09-17-181949_004](https://user-images.githubusercontent.com/44300715/190866564-5bbf08c2-9c8c-4e6b-87a6-9750baba8a9b.jpeg)
+![2022-09-17-191428_779x788_scrot](https://user-images.githubusercontent.com/44300715/190868758-5e6a18c8-52ff-42d7-aefc-f54ac341966b.png)
 
 This is a programming interface for Olimex ICE40HX8K-EVB, that should work with most SBCs on the market (with 40 GPIO pin headers). Tested with Odroid M1.
 
@@ -36,6 +37,10 @@ In order to use this interface, the remote SBC requires:
 - One sudoer (setup only)
 
 - `flashrom`.
+
+### Acknowledgements
+
+All this work is heavily inspired with Andreas Seltenreich's work available [here](https://github.com/anse1/olimex-ice40-notes).
 
 ### Disclaimer
 
